@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    background-color:#202124;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ .body{
+    display: flex;
+    flex-direction: column ;
+    height: 100vh; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.header a{
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+    text-decoration: inherit;
+
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+.righthead{
+    display:flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+
+}
+
+.logo{
+    height: 92px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgdiv{
+
+    height: 92px;
+    width: 272px;
+    background-image: url(googlelogo_light_color_272x92dp.png);
+    background-size: cover;
+
+    /* background-color: black; */
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+
+}
+
+.serach{
+    height: 160px;
+    /* width: 100%; */
+    /* background: white; */
+    /* padding: 20px; */
+    padding-right: 20px;
+
+}
+
+.seachbar{
+    height: 141px;
+    /* width: 100%; */
+   border: 2px solid red;
+   justify-content: center;
+   align-items: center;
+}
+
+.serach{
+    flex: 1;
+    display: flex;
+    /* margin-top: 12%; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.seachbar{
+    display: flex;
+    align-items: center ;
+    border:1px solid lightgray;
+    height: 30px;
+    padding: 10px  20px;
+    border-radius: 999px;
+    width: 35pc;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+
+
+}
+
+.seachbar input{
+    flex: 1;
+    /* padding: 10px 20px; */
+    border: none;
+    outline: none;
+}
+
+.button{
+    margin-top: 30px;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.button{
+    margin: 5px;
+    display: flex;
+    /* padding: 10px 15px; */
+    background-color: #303134; 
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.k{
+    height: 36px;
+    width: 140px;
+}
